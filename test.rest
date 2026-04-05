@@ -1,0 +1,20 @@
+###
+GET http://localhost:3546
+
+###
+POST http://localhost:3546/auth/register
+Content-Type: application/json
+
+{
+    "username": "bibaerbolat@gmail.com",
+    "password": "asdfgh"
+}
+
+###
+POST http://localhost:3546/auth/login
+Content-Type: application/json
+
+{
+    "username": "bibaerbolat@gmail.com",
+    "password": "ASD"
+}
